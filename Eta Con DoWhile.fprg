@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="conti.maurizio"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-02-13 08:39:50 "/>
+        <attribute name="created" value="Y29udGkubWF1cml6aW87VFMwNDsyMDIxLTAyLTEzOyIwODozNDowMCAiOzI5MTU="/>
+        <attribute name="edited" value="Y29udGkubWF1cml6aW87VFMwNDsyMDIxLTAyLTEzOyIwODozOTo1MCAiOzE7MzAzMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <do expression="a&lt;&gt;0">
+                <output expression="&quot;Inserisci la tua et&#224; (0 per uscire)&quot;" newline="True"/>
+                <input variable="a"/>
+                <if expression="a&gt;=14">
+                    <then>
+                        <output expression="&quot;OK&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="&quot;Non OK&quot;" newline="True"/>
+                    </else>
+                </if>
+            </do>
+            <output expression="&quot;Fine&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
